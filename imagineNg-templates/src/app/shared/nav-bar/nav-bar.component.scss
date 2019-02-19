@@ -1,0 +1,20 @@
+.container{
+  border: 1px solid #8e2de2;
+  // background-color: #401586;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  // background: #ED213A;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // background: linear-gradient(to top, #00b4db, #0083b0);
+  // background: linear-gradient(to top, #f3904f, #3b4371);
+  background: linear-gradient(to top, #8e2de2, #4a00e0);
+}
+
+.hamburger{
+  margin-top: 1%;
+  margin-left: 1%;
+  float: left;
+  cursor: pointer;
+}
+
