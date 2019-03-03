@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { NavbarDirective } from './directives/navbar.directive';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { ButtonModule } from './button-module/button.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
